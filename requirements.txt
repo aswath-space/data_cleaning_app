@@ -1,0 +1,33 @@
+# GUI
+PySide6
+
+# Data Cleaning and Processing
+pandas
+pyjanitor
+scikit-learn
+nltk
+spacy
+tensorflow
+keras
+featuretools
+
+# Anomaly Detection
+pycaret
+pyod
+
+# Visualization
+plotly
+bokeh
+seaborn
+
+# Database Connectivity
+SQLAlchemy
+psycopg2
+PyMySQL
+
+# Utilities
+dask
+cerberus
+
+# Configuration and Logging
+configparser
