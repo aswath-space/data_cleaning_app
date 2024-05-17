@@ -15,6 +15,7 @@ This project is a comprehensive data cleaning tool designed to handle various da
 
 ## Directory Structure
 
+'''
 my_advanced_data_cleaning_tool/
 ├── app.py
 ├── gui/
@@ -47,6 +48,7 @@ my_advanced_data_cleaning_tool/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
+'''
 
 # Data Cleaning and Visualization Tool Instruction Manual
 ## Table of Contents
@@ -69,25 +71,32 @@ This tool provides a user-friendly interface for data cleaning and visualization
 - Virtual Environment (optional but recommended)
 ### Steps
 1. Clone the Repository:
+
 '''
 git clone <repository_url>
 cd <repository_directory>
 '''
+
 2. Create and Activate a Virtual Environment:
+
 '''
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 '''
+
 3. Install Dependencies:
+
 '''
 pip install -r requirements.txt
 '''
 
 ## Running the Application
 To start the application, run:
+
 '''
 python data_cleaning_app/app.py
 '''
+
 ## User Interface Overview
 The main window of the application has several key components:
 - Connect to Database: Opens a dialog to connect to a database.
@@ -142,8 +151,10 @@ The main window of the application has several key components:
 ## Testing
 ### unning Unit Tests
 To run the unit tests, execute:
+
 '''python -m unittest discover tests
 '''
+
 ### GUI Testing
 The test_gui.py file contains tests for the GUI components. Ensure the database connection and interaction tests are included.
 
